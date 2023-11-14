@@ -45,6 +45,13 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    private fun saveComic(){
+
+        var JSONObject : String
+
+    }
+
+
     private fun downloadComic (comicId: String) {
         val url = "https://xkcd.com/$comicId/info.0.json"
         requestQueue.add (
