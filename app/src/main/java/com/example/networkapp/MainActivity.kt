@@ -58,6 +58,4 @@ class MainActivity : AppCompatActivity() {
         descriptionTextView.text = comicObject.getString("alt")
         Picasso.get().load(comicObject.getString("img")).into(comicImageView)
     }
-
-
 }
